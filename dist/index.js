@@ -28907,6 +28907,7 @@ const ENDPOINT = core.getInput('endpoint', {
 const s3options = {
   accessKeyId: AWS_KEY_ID,
   secretAccessKey: SECRET_ACCESS_KEY,
+  s3ForcePathStyle: true,
 };
 
 if (ENDPOINT) {
